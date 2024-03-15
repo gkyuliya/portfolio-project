@@ -1,0 +1,24 @@
+body {
+  background: #2b2b2b;
+}
+
+h1 {
+  color: #c5d6d8;
+  text-align: center;
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 60px;
+  margin-bottom: -4px;
+  font-size: 70px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 15px;
+  color: #c5d6d8;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}

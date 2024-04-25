@@ -99,7 +99,7 @@ h3 {
   opacity: 60%;
 }
 
-.container {
+.projects-display {
   padding: 80px;
 }
 
@@ -156,6 +156,48 @@ h3 {
 
 .image-container img:hover {
   transform: scale(1.05);
+}
+
+.logo {
+  max-height: 40px;
+  margin-left: 3rem;
+}
+
+.nav-bar {
+  background: var(--secondary-color);
+  box-shadow: var(--tertiary-color) 0px 2px 5px -1px,
+    var(--tertiary-color) 0px 1px 3px -1px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-size: 10px;
+  line-height: 20px;
+  margin-left: 10px;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
+  border: solid var(--button-color) 1px;
+  padding: 5px 7px;
+  border-radius: 40px;
+}
+
+nav ul {
+  padding: 0;
+  margin-top: 0.5rem;
 }
 
 p,
@@ -237,7 +279,7 @@ p,
 
   .header {
     margin-top: -40px;
-    padding: 100px 0px;
+    padding: 80px 20px;
   }
 
   .project-description {
@@ -274,5 +316,19 @@ p,
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  .logo {
+    height: 30px;
+    border-radius: 40px;
+    margin: 0;
+  }
+
+  nav li {
+    font-size: 8px;
+  }
+
+  nav ul {
+    margin: 0;
   }
 }

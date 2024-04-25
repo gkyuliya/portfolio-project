@@ -28,7 +28,21 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="header">
+    <div class="fixed-top nav-bar">
+      <nav class="p-2 d-flex justify-content-between">
+        <a href="/">
+          <img src="images/logo.png" class="logo" alt="" />
+        </a>
+        <ul class="me-4">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/work.html">My work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header mt-5">
       <h1>Yuliya Gabriella K.</h1>
       <h2 class="mb-5 text-uppercase mt-1">Front-end developer</h2>
       <div>
@@ -38,7 +52,7 @@
     <p class="text-center mb-3 p-announcement">
       Some of my best projects are featured down below ↓
     </p>
-    <div class="container">
+    <div class="container projects-display">
       <div class="row">
         <div class="col d-none d-lg-block">
           <img src="images/sakuraAI.png" class="img-fluid rounded images" />

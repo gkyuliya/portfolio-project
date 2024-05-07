@@ -28,12 +28,37 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="mt-5">Contact</h1>
+    <div class="fixed-top nav-bar">
+      <nav class="pt-2 d-flex justify-content-between">
+        <div class="no-hover">
+          <a href="/">
+            <img
+              src="images/logo2-nobg.png"
+              class="logo d-none d-md-block"
+              alt=""
+            />
+            <img
+              src="images/small-logo.png"
+              class="logo-small d-block d-md-none"
+              alt=""
+            />
+          </a>
+        </div>
+        <ul class="me-4">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/work.html">My work</a></li>
+          <li class="active"><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header mt-5">
+      <h1>Contact</h1>
+      <h2 class="email-heading text-uppercase mb-2">Email me</h2>
+      <img src="images/email.png" class="email-icon" alt="" />
 
-    <img src="images/email.png" class="email-icon" alt="" />
-
-    <h2 class="email-heading text-uppercase mt-2">Email me here</h2>
-
+      <p class="mt-3">Let's work together!</p>
+    </div>
     <div class="socials-container">
       <div class="row text-center">
         <div class="col socials-col">
@@ -47,6 +72,10 @@
         <div class="col socials-col">
           <img src="images/linkedin.png" alt="" class="socials-icons" />
           <p class="socials-headings mt-2">Linkedin</p>
+        </div>
+        <div class="col socials-col">
+          <img src="images/github-icon.png" alt="" class="socials-icons" />
+          <p class="socials-headings mt-2">Github</p>
         </div>
       </div>
     </div>

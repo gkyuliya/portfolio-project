@@ -75,7 +75,7 @@ h3 {
 }
 
 .email-icon {
-  width: 50px;
+  width: 40px;
   margin: auto;
   display: block;
   text-align: center;
@@ -83,7 +83,7 @@ h3 {
 
 .socials-container {
   padding: 20px;
-  margin: 50px;
+  margin: 20px;
 }
 
 .socials-icons {
@@ -159,20 +159,20 @@ h3 {
 }
 
 .logo {
-  max-height: 50px;
-  max-width: 150px;
+  height: 65px;
+  max-width: 200px;
   margin-left: 3rem;
+  margin-bottom: 5px;
 }
 
 .nav-bar {
-  background: var(--secondary-color);
-  box-shadow: var(--tertiary-color) 0px 2px 5px -1px,
-    var(--tertiary-color) 0px 1px 3px -1px;
+  background: var(--primary-color);
+  box-shadow: black 0px 2px 5px -1px, grey 0px 1px 3px -1px;
 }
 
 nav a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   transition: all 200ms ease-in-out;
 }
 
@@ -196,9 +196,13 @@ nav li.active a {
   border-radius: 40px;
 }
 
+.no-hover a:hover {
+  transition: none;
+}
+
 nav ul {
   padding: 0;
-  margin-top: 0.7rem;
+  margin-top: 1rem;
 }
 
 p,
@@ -267,15 +271,15 @@ p,
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .project-headings,
   .work-headings {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .header {
@@ -289,7 +293,7 @@ p,
   }
   p {
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
   }
   .p-announcement {
     font-size: 11px;
@@ -310,7 +314,7 @@ p,
   }
 
   .about-text {
-    font-size: 13px;
+    font-size: 10px;
     padding: 50px;
   }
 
@@ -320,8 +324,14 @@ p,
   }
 
   .logo {
-    height: 30px;
+    height: 33px;
     margin: 0;
+  }
+
+  .logo-small {
+    height: 40px;
+    width: 60px;
+    margin-top: -3px;
   }
 
   nav li {
@@ -330,6 +340,7 @@ p,
   }
 
   nav ul {
-    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 0;
   }
 }

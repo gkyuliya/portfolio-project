@@ -29,7 +29,22 @@
   </head>
 </html>
 <body>
-  <div class="container">
+  <div class="fixed-top nav-bar">
+    <nav class="pt-2 d-flex justify-content-between">
+      <a href="/">
+        <img src="images/small-logo.png" class="logo img-fluid" alt="" />
+      </a>
+      <div class="pages-links">
+        <ul class="me-4">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li class="active"><a href="/work.html">My work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container work-container">
     <div class="content">
       <div class="row">
         <div class="header">
@@ -42,10 +57,10 @@
           <p>Here are some of the projects that I've been working on</p>
           <h2 class="mt-1">↓</h2>
         </div>
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4 text-center">
           <img
             src="images/sakuraAI.png"
-            class="img-fluid mb-3 rounded images"
+            class="img-fluid mb-3 rounded images work-images"
             alt=""
           />
           <h3 class="text-center m-0 work-headings">Sakura Ai</h3>
@@ -57,10 +72,10 @@
           </div>
         </div>
 
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4 text-center">
           <img
             src="images/weather.png"
-            class="img-fluid mb-3 rounded images"
+            class="img-fluid mb-3 rounded images work-images"
             alt=""
           />
           <h3 class="text-center m-0 work-headings">Weather App</h3>
@@ -72,10 +87,10 @@
           </div>
         </div>
 
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4 text-center">
           <img
             src="images/world-clock.png"
-            class="img-fluid mb-3 rounded images"
+            class="img-fluid mb-3 rounded images work-images"
             alt=""
           />
           <h3 class="text-center m-0 work-headings">World Clock</h3>
@@ -87,10 +102,10 @@
           </div>
         </div>
 
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4 text-center">
           <img
             src="images/journaling.png"
-            class="img-fluid mb-3 rounded images"
+            class="img-fluid mb-3 rounded images work-images"
             alt=""
           />
           <h3 class="text-center m-0 work-headings">Journaling</h3>

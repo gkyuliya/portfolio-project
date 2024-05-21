@@ -79,13 +79,6 @@ h4 {
   color: var(--highlight-color);
 }
 
-.email-icon {
-  width: 40px;
-  margin: auto;
-  display: block;
-  text-align: center;
-}
-
 .projects-display {
   padding: 80px;
 }
@@ -93,11 +86,6 @@ h4 {
 .hi-text {
   margin-bottom: -40px;
   font-size: 14px;
-}
-
-.about-text {
-  padding: 50px 300px;
-  margin-top: 30px;
 }
 
 .header {
@@ -128,16 +116,13 @@ h4 {
   max-width: 960px;
 }
 
-.image-container {
-  display: flex;
-  justify-content: center;
-  column-gap: 60px;
-  padding: 10px;
+.work-inquiry-container {
+  padding: 10px 80px 80px;
 }
 
-.image-container img {
+.about-image {
   height: 200px;
-  width: 190px;
+  width: 200px;
   object-fit: cover;
   border-radius: 3px;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
@@ -145,8 +130,12 @@ h4 {
   transition: all 250ms ease-in-out;
 }
 
-.image-container img:hover {
+.about-image:hover {
   transform: scale(1.05);
+}
+
+.about-container {
+  padding: 50px 80px 80px;
 }
 
 .logo {
@@ -249,6 +238,10 @@ p {
   margin: 30px;
 }
 
+.contact-container {
+  padding: 0 80px;
+}
+
 footer .email-link {
   text-decoration: none;
   font-size: 14px;
@@ -293,7 +286,7 @@ footer .contact-box-btn:hover {
 footer .footer-links a {
   margin: 0 10px;
   background: #25252567;
-  padding: 10px;
+  padding: 5px 8px;
   border-radius: 50%;
 }
 
@@ -331,10 +324,10 @@ footer .footer-links a {
   }
   p {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
   }
   .p-announcement {
-    font-size: 11px;
+    font-size: 10px;
   }
   .btn-branding,
   .btn-branding-outline,
@@ -346,14 +339,13 @@ footer .footer-links a {
     margin: 0px;
   }
 
-  .about-images {
-    width: 140px;
+  .about-image {
+    width: 130px;
     height: auto;
   }
 
   .about-text {
     font-size: 10px;
-    padding: 50px;
   }
 
   .content {
@@ -361,10 +353,15 @@ footer .footer-links a {
     padding: 0;
   }
 
+  .work-images {
+    width: 150px;
+  }
+
   .logo {
     height: 40px;
     width: 60px;
     margin-top: -3px;
+    margin-left: 0;
   }
 
   nav li {
@@ -377,16 +374,38 @@ footer .footer-links a {
     margin-bottom: 0;
   }
 
+  footer .email-link {
+    font-size: 10px;
+  }
+
+  footer {
+    margin: 0px;
+  }
+
+  .socials-icons {
+    width: 20px;
+  }
+
   footer .flex-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     text-align: center;
-    font-size: 8px;
-    background: none;
+    padding: 7px 5px;
+  }
+
+  footer h4 {
+    font-size: 13px;
+  }
+
+  footer #work-inquiry {
+    font-size: 7px;
   }
 
   footer .contact-box-btn {
-    padding: 0px 7px;
-    font-size: 12px;
+    padding: 0px 3px;
+    font-size: 8px;
+    margin: 0px !important;
   }
 }

@@ -63,6 +63,12 @@ h4 {
   font-family: var(--secondary-font);
 }
 
+.description-highlight {
+  color: var(--highlight-color);
+
+  text-decoration: underline;
+}
+
 .email-heading,
 .socials-headings {
   margin: 0;
@@ -194,6 +200,12 @@ p {
   color: var(--secondary-color);
   font-size: 14px;
   margin-top: -40px;
+  padding: 20px;
+}
+
+.contact-links {
+  color: var(--button-color);
+  font-size: 13px;
 }
 
 .btn-branding-outline {
@@ -236,10 +248,6 @@ p {
 
 .content {
   margin: 30px;
-}
-
-.contact-container {
-  padding: 0 80px;
 }
 
 footer .email-link {
